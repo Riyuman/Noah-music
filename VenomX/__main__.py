@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Ayush.start()
     try:
-        await Ayush.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Ayush.stream_call("https://telegra.ph/file/1b798dcc380d01f886d15.jpg")
     except NoActiveGroupCall:
         LOGGER("VenomX").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -49,12 +49,12 @@ async def init():
     except:
         pass
     await Ayush.decorators()
-    LOGGER("VenomX").info("ᴠᴇɴᴏᴍxᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
+    LOGGER("VenomX").info("𝄟❥𝙈.𝙋.𝙂 ✧ 𝙈𝙐𝙎𝙄𝘾❥‌𝄟 ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ɴᴏᴡ ᴇɴᴊᴏʏ")
 
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("VenomX").info("Stopping VenomX Music Bot...")
+    LOGGER("VenomX").info("Stopping 𝄟❥𝙈.𝙋.𝙂 ✧ 𝙈𝙐𝙎𝙄𝘾❥‌𝄟 Bot...")
 
 
 if __name__ == "__main__":
